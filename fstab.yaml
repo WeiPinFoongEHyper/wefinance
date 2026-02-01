@@ -1,5 +1,9 @@
 mountpoints:
+<<<<<<< HEAD
   /:
     url: "https://author-p130360-e1272151.adobeaemcloud.com/bin/franklin.delivery/adobe-rnd/aem-boilerplate-xwalk/main"
     type: "markup"
     suffix: ".html"
+=======
+  /: https://hyperavitron.sharepoint.com/sites/wefinance/Shared%20Documents/wefinance
+>>>>>>> 3f53371 (Create fstab.yaml)
