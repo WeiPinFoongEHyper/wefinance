@@ -307,4 +307,18 @@ main .form .section-wrapper.card-wrapper .section-title {
   margin-bottom: 24px;
 }
 
+/* Turning the spreadsheet row into a real <hr> style */
+main .form .hr-rule-wrapper {
+  border: none;
+  border-top: 1px dashed var(--dark-color); /* You can use 'solid' or 'dashed' */
+  margin: 40px 0;
+  padding: 0;
+  height: 0;
+  opacity: 0.4;
+  display: block;
+}
 
+/* Hide the '---' text so only the line remains */
+main .form .hr-rule-wrapper p {
+  display: none;
+}
