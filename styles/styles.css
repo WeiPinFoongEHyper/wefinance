@@ -211,7 +211,7 @@ button.secondary {
 }
 
 main img {
-  max-width: 100%; 
+  max-width: 300%; 
   width: 50px;
   height: 24px;
 }
@@ -307,20 +307,4 @@ main .form .section-wrapper.card-wrapper .section-title {
   margin-bottom: 24px;
 }
 
-/* Fix for the "Long Pic" logo */
-main .form img {
-    /* This overrides the 24px icon restriction */
-    width: auto !important; 
-    height: auto !important;
-    max-width: 100%; /* Prevents it from going off-screen */
-    min-width: 200px; /* Forces it to show at least this wide */
-    display: block;
-    margin-bottom: 20px;
-}
 
-/* Specific fix if you put the logo in a row labeled "logo" */
-main .form .logo-wrapper {
-    display: block;
-    width: 100%;
-    overflow: visible; /* Ensures the long pic isn't cut off */
-}
