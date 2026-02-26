@@ -270,3 +270,20 @@ main .form .hr-line-wrapper {
 main .form .hr-line-wrapper p {
   display: none;
 }
+
+/* Form Section Separation */
+main .form .section.card {
+  background-color: var(--light-color); 
+  padding: 32px;
+  margin-bottom: 40px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+}
+
+/* Add a line specifically to the top of the section title */
+main .form .section.card h3 {
+  margin-top: 0;
+  border-bottom: 2px solid var(--link-color);
+  padding-bottom: 12px;
+  margin-bottom: 24px;
+}
