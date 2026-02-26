@@ -255,3 +255,18 @@ main .section.highlight {
   margin: 0;
   padding: 40px 0;
 }
+
+
+/* form separators */
+main .form .hr-line-wrapper {
+  border: none;
+  padding: 0;
+  margin: 40px 0;
+  height: 1px;
+  background-color: var(--dark-color); /* Uses your variable */
+  opacity: 0.2; /* Makes it a subtle light line */
+}
+
+main .form .hr-line-wrapper p {
+  display: none;
+}
