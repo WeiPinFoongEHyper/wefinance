@@ -295,7 +295,6 @@ main .form .section-wrapper.card-wrapper {
   border-radius: 8px;
   padding: 32px;
   margin-bottom: 32px;
-  box-shadow: 0 2px 4px rgb(0,0,0,5%);
 }
 
 /* This styles the title inside that card */
