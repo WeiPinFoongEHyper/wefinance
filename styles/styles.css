@@ -312,7 +312,7 @@ main .form fieldset[name="sponsorInfo"],
 main .form fieldset[name="otherSponsorInfo"],
 main .form fieldset[name="newListingApplication"]{
   display: block;
-  background-color: var(--light-color) !important;
+  background-color: var(--light-color);
   border: 1px solid #d0d0d0;
   padding: 0;
   overflow: hidden;
@@ -326,7 +326,7 @@ main .form fieldset[name="newListingApplication"] legend {
   display: block;
   width: 100%;
   padding: 16px 24px;
-  background-color: #f5f5f5;
+  background-color: #e8e8e8;
   border-bottom: 1px solid #d0d0d0;
   box-sizing: border-box;
 }
