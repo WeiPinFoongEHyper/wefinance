@@ -307,15 +307,10 @@ main .form .section-wrapper.card-wrapper .section-title {
   margin-bottom: 24px;
 }
 
+main .form fieldset[name="subjectMatter"],
+main .form fieldset[name="sponsorInfo"],
+main .form fieldset[name="otherSponsorInfo"],
 main .form fieldset[name="newListingApplication"]{
-  display: block;
-  background-color: var(--light-color) !important;
-  border: 1px solid #d0d0d0 !important;
-  padding-top: 0 !important;
-  overflow: hidden;
-}
-
-main .form fieldset {
   display: block;
   background-color: var(--light-color) !important;
   border: 1px solid #d0d0d0 !important;
