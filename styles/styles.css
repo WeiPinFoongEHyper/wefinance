@@ -309,12 +309,12 @@ main .form fieldset[name="otherSponsorInfo"] legend,
 main .form fieldset[name="newListingApplication"] legend {
   display: block;
   width: 100%;
-  height: 100px;
+  height: 80px;
   padding: 16px 24px;
   background-color: #e8e8e8;
   border-bottom: 2px solid #d0d0d0;
   box-sizing: border-box;
-  text-align: center;
+  text-align: left;
 }
 
 
