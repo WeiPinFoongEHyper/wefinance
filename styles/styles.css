@@ -319,7 +319,7 @@ main .form fieldset[name="newListingApplication"] legend {
 
 /* fieldsets inside section */
 main .form fieldset[name="newListingApplication"] fieldset {
-  background-color: #e8e8e8;
+  background-color: transparent;
   border: none;
   padding: 10px 0;
   width: 100%;
