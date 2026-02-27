@@ -315,6 +315,14 @@ main .form fieldset[name="newListingApplication"]{
   overflow: hidden;
 }
 
+main .form fieldset {
+  display: block;
+  background-color: var(--light-color) !important;
+  border: 1px solid #d0d0d0 !important;
+  padding-top: 0 !important;
+  overflow: hidden;
+}
+
 main .form fieldset legend {
   display: block !important;
   float: none;
@@ -328,8 +336,7 @@ main .form fieldset legend {
 }
 
 
-/* 3. Protect NESTED fieldsets (This stops the "Affected Also" problem) */
-/* This resets any fieldset that is INSIDE your main card to look normal */
+/* fieldsets inside section */
 main .form fieldset[name="newListingApplication"] fieldset {
   background-color: transparent !important;
   border: none !important;
@@ -337,12 +344,5 @@ main .form fieldset[name="newListingApplication"] fieldset {
   margin: 10px 0 !important;
 }
 
-/* This makes sure nested legends don't look like the big card header */
-main .form fieldset[name="newListingApplication"] fieldset > legend {
-  background-color: transparent !important;
-  border: none !important;
-  padding: 0 0 10px 0 !important;
-  width: auto !important;
-  color: var(--dark-color) !important;
-}
+
 
