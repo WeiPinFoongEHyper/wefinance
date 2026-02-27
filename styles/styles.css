@@ -297,7 +297,7 @@ main .form .section-wrapper.card-wrapper {
   margin-bottom: 32px;
 }
 
-/* This styles the title inside that card */
+
 main .form .section-wrapper.card-wrapper .section-title {
   margin-top: 0;
   font-size: var(--heading-font-size-m);
