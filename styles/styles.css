@@ -307,7 +307,7 @@ main .form .section-wrapper.card-wrapper .section-title {
   margin-bottom: 24px;
 }
 
-main .form fieldset [name="newListingApplication"]{
+main .form fieldset[name="newListingApplication"]{
   display: block;
   background-color: var(--light-color) !important;
   border: 1px solid #d0d0d0 !important;
