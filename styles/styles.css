@@ -327,7 +327,7 @@ main .form fieldset[name="newListingApplication"] legend {
   width: 100%;
   padding: 16px 24px;
   position: static;
-  background-color: #f5f5f5;
+  background-color: #f5f5f5 !important;
   border-bottom: 1px solid #d0d0d0;
   box-sizing: border-box;
 }
