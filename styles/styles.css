@@ -323,5 +323,6 @@ main .form fieldset legend {
   margin: 0;
   background-color: #e0e0e0; 
   border-bottom: 1px solid #d0d0d0 !important;
+  border: 1px solid #d0d0d0 !important;
   width: 100% !important;
 }
