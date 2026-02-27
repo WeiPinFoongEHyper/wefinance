@@ -320,7 +320,7 @@ main .form fieldset[name="newListingApplication"] legend {
 /* fieldsets inside section */
 main .form fieldset[name="newListingApplication"] fieldset {
   background-color: transparent;
-  border: 1px solid;
+  border: none;
   padding: 10px 0;
   width: 100%;
   height: auto;
@@ -328,7 +328,7 @@ main .form fieldset[name="newListingApplication"] fieldset {
 }
 
 main .form fieldset[name="newListingApplication"] fieldset > legend {
-  background-color: transparent;
+  background-color: #e8e8e8;
   border: none;
   padding: 0 0 10px 0;
   width: 100%;
