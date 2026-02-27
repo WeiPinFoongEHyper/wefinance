@@ -317,7 +317,6 @@ main .form fieldset[name="newListingApplication"]{
   padding: 0;
   overflow: hidden;
   width: 100%;
-  margin-bottom: 40px;
 }
 
 main .form fieldset[name="subjectMatter"] legend,
