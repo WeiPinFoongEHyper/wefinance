@@ -318,14 +318,6 @@ main .form fieldset[name="newListingApplication"]{
   overflow: hidden;
 }
 
-/* fieldsets inside section */
-main .form fieldset[name="newListingApplication"] fieldset {
-  background-color: transparent !important;
-  border: none !important;
-  padding: 10px 0 !important;
-  margin: 10px 0 !important;
-}
-
 main .form fieldset[name="subjectMatter"] legend,
 main .form fieldset[name="sponsorInfo"] legend,
 main .form fieldset[name="otherSponsorInfo"] legend,
@@ -337,4 +329,22 @@ main .form fieldset[name="newListingApplication"] legend {
   border-bottom: 1px solid #d0d0d0 !important;
   box-sizing: border-box !important;
 }
+
+
+/* fieldsets inside section */
+main .form fieldset[name="newListingApplication"] fieldset {
+  background-color: transparent !important;
+  border: none !important;
+  padding: 10px 0 !important;
+  margin: 10px 0 !important;
+}
+
+main .form fieldset[name="newListingApplication"] fieldset > legend {
+  background-color: transparent !important;
+  border: none !important;
+  padding: 0 0 10px 0 !important;
+  width: auto !important;
+  color: var(--dark-color) !important;
+}
+
 
