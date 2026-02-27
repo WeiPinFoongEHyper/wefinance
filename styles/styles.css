@@ -289,23 +289,6 @@ main .form .section.card h3 {
 }
 
 /* This targets the container created by the 'section' row */
-main .form .section-wrapper.card-wrapper {
-  background-color: var(--light-color);
-  border: 1px solid #e0e0e0;
-  border-radius: 8px;
-  padding: 32px;
-  margin-bottom: 32px;
-}
-
-
-main .form .section-wrapper.card-wrapper .section-title {
-  margin-top: 0;
-  font-size: var(--heading-font-size-m);
-  color: var(--link-color);
-  border-bottom: 1px solid #d0d0d0;
-  padding-bottom: 16px;
-  margin-bottom: 24px;
-}
 
 main .form fieldset[name="subjectMatter"],
 main .form fieldset[name="sponsorInfo"],
@@ -325,7 +308,7 @@ main .form fieldset[name="otherSponsorInfo"] legend,
 main .form fieldset[name="newListingApplication"] legend {
   display: block;
   width: 100%;
-  padding: 16px 240px;
+  padding: 16px 24px;
   background-color: #e8e8e8;
   border-bottom: 1px solid #d0d0d0;
   box-sizing: border-box;
